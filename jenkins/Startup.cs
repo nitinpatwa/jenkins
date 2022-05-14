@@ -34,7 +34,7 @@ namespace jenkins
                 endpoints.MapGet("/", async context =>
                 {
                     Message p = new Message();
-                    await context.Response.WriteAsync(p.Date());
+                    await context.Response.WriteAsync(p.Date()+"");
                 });
             });
         }
