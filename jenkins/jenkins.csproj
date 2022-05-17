@@ -16,7 +16,8 @@
 
   <ItemGroup>
     <Reference Include="IRUtility">
-      <HintPath>bin\Debug\IRUtility.dll</HintPath>
+      <HintPath>..\..\jenkins\bin\Debug\IRUtility.dll</HintPath>
+      <Private>true</Private>
     </Reference>
   </ItemGroup>
 
